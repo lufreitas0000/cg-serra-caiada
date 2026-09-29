@@ -1,0 +1,9 @@
+build/
+env/
+*.pdf
+*.log
+*.aux
+*.json
+*.txt
+.dvc/config.local
+/fig

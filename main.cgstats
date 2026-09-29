@@ -1,0 +1,57 @@
+\gdef\CGTotalRoutes{0}
+\expandafter\gdef\csname CGGlobalChart\endcsname{\begin{tcolorbox}[colback=bg_beige, colframe=bg_beige, boxrule=0pt, arc=4pt, left=4mm, right=4mm, top=4mm, bottom=4mm]
+\begin{center}
+\begin{tikzpicture}[baseline=0pt]
+\draw[help lines, color=gray!40, dashed] (0,0) -- (7.0, 0);
+\fill[guide_cyan] (0.50, 0) rectangle (1.10, 0.04);
+\node[above, font=\tiny, text=gray] at (0.80, 0.04) {0};
+\node[below, font=\tiny\sffamily] at (0.80, -0.05) {\makebox[0pt][r]{$\leq$~}IV};
+\fill[guide_green] (1.40, 0) rectangle (2.00, 0.04);
+\node[above, font=\tiny, text=gray] at (1.70, 0.04) {0};
+\node[below, font=\tiny\sffamily] at (1.70, -0.05) {V};
+\fill[guide_yellow] (2.30, 0) rectangle (2.90, 0.04);
+\node[above, font=\tiny, text=gray] at (2.60, 0.04) {0};
+\node[below, font=\tiny\sffamily] at (2.60, -0.05) {VI};
+\fill[guide_orange] (3.20, 0) rectangle (3.80, 0.04);
+\node[above, font=\tiny, text=gray] at (3.50, 0.04) {0};
+\node[below, font=\tiny\sffamily] at (3.50, -0.05) {VII};
+\fill[guide_red] (4.10, 0) rectangle (4.70, 0.04);
+\node[above, font=\tiny, text=gray] at (4.40, 0.04) {0};
+\node[below, font=\tiny\sffamily] at (4.40, -0.05) {VIII};
+\fill[guide_purple] (5.00, 0) rectangle (5.60, 0.04);
+\node[above, font=\tiny, text=gray] at (5.30, 0.04) {0};
+\node[below, font=\tiny\sffamily] at (5.30, -0.05) {\makebox[0pt][r]{$\geq$~}IX};
+\fill[guide_gray] (5.90, 0) rectangle (6.50, 0.04);
+\node[above, font=\tiny, text=gray] at (6.20, 0.04) {0};
+\node[below, font=\tiny\sffamily] at (6.20, -0.05) {?};
+\end{tikzpicture}
+\end{center}
+\end{tcolorbox}}
+\expandafter\gdef\csname g_guide_stats_ZONA_BAIXA\endcsname{\begin{tcolorbox}[colback=bg_beige, colframe=bg_beige, boxrule=0pt, arc=4pt, left=4mm, right=4mm, top=4mm, bottom=4mm]
+\begin{center}
+\begin{tikzpicture}[baseline=0pt]
+\draw[help lines, color=gray!40, dashed] (0,0) -- (7.0, 0);
+\fill[guide_cyan] (0.50, 0) rectangle (1.10, 0.04);
+\node[above, font=\tiny, text=gray] at (0.80, 0.04) {0};
+\node[below, font=\tiny\sffamily] at (0.80, -0.05) {\makebox[0pt][r]{$\leq$~}IV};
+\fill[guide_green] (1.40, 0) rectangle (2.00, 0.04);
+\node[above, font=\tiny, text=gray] at (1.70, 0.04) {0};
+\node[below, font=\tiny\sffamily] at (1.70, -0.05) {V};
+\fill[guide_yellow] (2.30, 0) rectangle (2.90, 0.04);
+\node[above, font=\tiny, text=gray] at (2.60, 0.04) {0};
+\node[below, font=\tiny\sffamily] at (2.60, -0.05) {VI};
+\fill[guide_orange] (3.20, 0) rectangle (3.80, 0.04);
+\node[above, font=\tiny, text=gray] at (3.50, 0.04) {0};
+\node[below, font=\tiny\sffamily] at (3.50, -0.05) {VII};
+\fill[guide_red] (4.10, 0) rectangle (4.70, 0.04);
+\node[above, font=\tiny, text=gray] at (4.40, 0.04) {0};
+\node[below, font=\tiny\sffamily] at (4.40, -0.05) {VIII};
+\fill[guide_purple] (5.00, 0) rectangle (5.60, 0.04);
+\node[above, font=\tiny, text=gray] at (5.30, 0.04) {0};
+\node[below, font=\tiny\sffamily] at (5.30, -0.05) {\makebox[0pt][r]{$\geq$~}IX};
+\fill[guide_gray] (5.90, 0) rectangle (6.50, 0.04);
+\node[above, font=\tiny, text=gray] at (6.20, 0.04) {0};
+\node[below, font=\tiny\sffamily] at (6.20, -0.05) {?};
+\end{tikzpicture}
+\end{center}
+\end{tcolorbox}}
