@@ -7,3 +7,7 @@ env/
 *.txt
 .dvc/config.local
 /fig
+*.cgstats
+build/
+env/
+.dvc/config.local
