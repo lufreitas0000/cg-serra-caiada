@@ -1,7 +1,35 @@
 \documentclass{article}
 \usepackage{climbingguide}
+
 \begin{document}
+\CGSetHeaderLeft{Serra Caiada}
+
+\CGCoverPage{example-image-c}{SERRA CAIADA}{{\CGCoverSubtitleFont Total de Vias:} \CGTotalRoutes}
+
+\CGTextSingleColumn{}{
+    Guia de Escalada de Serra Caiada\\
+    Edição: \CGToday \\
+    Número de Vias: \CGTotalRoutes \\
+}
+
+\vspace{5mm}
+\begin{center}
+    {\huge EDIÇÃO NÃO OFICIAL \\[5pt] EM DESENVOLVIMENTO }
+\end{center}
+\vfill
+\CGZoneStats{Global}
+
 \input{frontmatter.tex}
-\input{zones/zona_baixa.tex}
+
+\input{zones/zona_boulder_principal.tex}
+\input{zones/zona_leste.tex}
+\input{zones/negativos.tex}
+\input{zones/caverninha.tex}
+\input{zones/face_sul.tex}
+\input{zones/zona_alta.tex}
+\input{zones/complexo_ravina.tex}
+\input{zones/sudoeste.tex}
+
 \input{endmatter.tex}
+
 \end{document}
